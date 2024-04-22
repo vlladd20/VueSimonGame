@@ -1,0 +1,75 @@
+.game
+    width: 100vw
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    background-size: cover
+
+.game_inner
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-content: center
+    align-items: center
+    width: 40vw
+    height: 40vw
+    max-width: 25rem
+    max-height: 25rem
+    margin-left: 5rem
+    margin-right: 3rem
+    overflow: hidden
+    background: #000
+    & div.col
+        display: flex
+        flex-direction: row
+        flex-wrap: nowrap
+    & button
+        cursor: pointer
+        position: absolute
+        max-width: 10rem
+        width: 15vw
+        max-height: 10rem
+        height: 15vw
+        font-size: 1.5rem
+        color: #fff
+        background-color: #9a2323
+        border: 10px solid #232121
+        border-radius: 50%
+
+.red, .blue, .yellow, .green
+  cursor: pointer
+  width: 20vw
+  height: 20vw
+  border: 5px solid #7a7a7d
+  opacity: 0.5
+
+.red
+    background-color: red
+
+.yellow
+    background-color: yellow
+
+.blue
+    background-color: blue
+
+.green
+    background-color: green
+
+
+.content_res
+  display: flex
+  flex-direction: column
+  padding: 1rem
+  background-color: #fff
+  font-size: 1rem
+  & button
+    cursor: pointer
+    margin: 0.5rem
+    padding: 0.3rem 0.5rem
+    border: none
+    color: #fff
+    background-color: #5d9cec
+
+button.set-level
+  background-color: green
